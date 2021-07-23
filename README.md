@@ -24,8 +24,8 @@ As the backward algorithm of SVD is prone to have numerical instability, we impl
 
 In the task of global covaraince pooling, the SVD-Pad\'e achieves the best performances. You are free to try other methods in your research. 
 
-## Usages
-The codes is modifed on the basis of [iSQRT-COV](https://github.com/jiangtaoxie/fast-MPN-COV)
+## Implementation and Usage
+The codes is modifed on the basis of [iSQRT-COV](https://github.com/jiangtaoxie/fast-MPN-COV).
 
 See the [requirements.txt](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/requirements.txt) for the specific required packages. 
 
