@@ -26,6 +26,11 @@ In the task of global covaraince pooling, the SVD-Pad\'e achieves the best perfo
 
 ## Usages
 See the [requirements.txt](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/requirements.txt) for the required packages. 
+To train AlexNet/ResNet on ImageNet, change the representation spectral meta-layer and run:
+'''
+CUDA_VISIBLE_DEVICES=0,1 bash train_alexnet.sh
+'''
+
 
 ## Citation 
 If you think the codes is helpful to your research, please consider cite our paper:
