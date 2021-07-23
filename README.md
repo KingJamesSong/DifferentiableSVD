@@ -13,8 +13,15 @@ In this paper, we investigate the reason behind why approximate matrix square ro
 computing smooth SVD gradients are investigated. We also propose a new GCP meta-layer that uses SVD in the forward pass, and Pad\'e approximants in the backward propagation to compute the gradients. The results of the so-called SVD-Pad\'e achieve state-of-the-art results.
 
 ## Differentiable SVD Methods
-
-
+We implement a variety of end-to-end SVD methods in this repository. They include:
+- SVD-Pad\'e: 
+- SVD-Taylor:
+- SVD-PI:
+- SVD-Newton:
+- SVD-Trunc:
+- SVD-TopN:
+- SVD-Original:
+In the task of global covaraince pooling, the SVD-Pad\'e achieves the best performances. You are free to try other methods in your research. 
 
 ## Citation 
 If you think the codes is helpful to your research, please consider cite our paper:
