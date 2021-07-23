@@ -18,7 +18,7 @@ As the backward algorithm of SVD is prone to have numerical instability, we impl
 - [***SVD-Taylor***](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SVD_Taylor.py): use Taylor polynomial to approximate the smooth gradient. It is proposed in our [ICCV21 paper](https://arxiv.org/abs/2105.02498) and the [TPAMI journal](https://arxiv.org/abs/2104.03821).
 - [***SVD-PI***](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SVD_PI.py): use Power Iteration (PI) to approximate the gradients. It is proposed in the [NeurIPS19 paper](https://arxiv.org/abs/1906.09023).
 - [***SVD-Newton***](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SVD_Newton.py): use the gradient of the Newton-Schulz iteration.
-- [***SVD-Trunc***](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SVD_Trunc.py): set a upper limit of the gradient and apply truncation
+- [***SVD-Trunc***](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SVD_Trunc.py): set a upper limit of the gradient and apply truncation.
 - [***SVD-TopN***](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SVD_TopN.py): select the Top-N eigenvalues and abandon the rest.
 - [***SVD-Original***](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SVD_Original.py): ordinary SVD gradients with overflow check.
 
