@@ -10,7 +10,7 @@ This repository contains:
 ## About the paper
 
 In this paper, we investigate the reason behind why approximate matrix square root calculated via Newton-Schulz iteration outperform the accurate ones computed by SVD from the perspectives of data precision and gradient smoothness. Various remedies for
-computing smooth SVD gradients are investigated. We also propose a new GCP meta-layer that uses SVD in the forward pass, and Pad\'e approximants in the backward propagation to compute the gradients. The results of the so-called SVD-Pad\'e achieve state-of-the-art results.
+computing smooth SVD gradients are investigated. We also propose a new spectral meta-layer that uses SVD in the forward pass, and Pad\'e approximants in the backward propagation to compute the gradients. The results of the so-called SVD-Pad\'e achieve state-of-the-art results on ImageNet and FGVC datasets.
 
 ## Differentiable SVD Methods
 As the backward algorithm of SVD is prone to have numerical instability, we implement a variety of end-to-end SVD methods by manipulating the backward algortihms in this repository. They include:
