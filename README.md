@@ -13,14 +13,15 @@ In this paper, we investigate the reason behind why approximate matrix square ro
 computing smooth SVD gradients are investigated. We also propose a new GCP meta-layer that uses SVD in the forward pass, and Pad\'e approximants in the backward propagation to compute the gradients. The results of the so-called SVD-Pad\'e achieve state-of-the-art results.
 
 ## Differentiable SVD Methods
-We implement a variety of end-to-end SVD methods in this repository. They include:
-- SVD-Pad\'e: 
-- SVD-Taylor:
-- SVD-PI:
-- SVD-Newton:
-- SVD-Trunc:
-- SVD-TopN:
-- SVD-Original:
+As the backward algorithm of SVD is prone to have numerical instability, we implement a variety of end-to-end SVD methods by manipulating the backward algortihms in this repository. They include:
+- SVD-Pad\'e: use Pad\'e approximants to closely approximate the gradient. It is proposed in our [ICCV21 paper](https://arxiv.org/abs/2105.02498). 
+- SVD-Taylor: use Taylor polynomial to approximate the smooth gradient. It is proposed in our [ICCV21 paper](https://arxiv.org/abs/2105.02498) and the [TPAMI journal](https://arxiv.org/abs/2104.03821).
+- SVD-PI: use Power Iteration (PI) to approximate the gradients. It is proposed in the [NeurIPS19 paper](https://arxiv.org/abs/1906.09023).
+- SVD-Newton: use the gradient of the Newton-Schulz iteration.
+- SVD-Trunc: set a upper limit of the gradient and apply truncation
+- SVD-TopN: select the Top-N eigenvalues and abandon the rest.
+- SVD-Original: ordinary SVD gradients with overflow check
+
 In the task of global covaraince pooling, the SVD-Pad\'e achieves the best performances. You are free to try other methods in your research. 
 
 ## Citation 
@@ -32,6 +33,7 @@ If you think the codes is helpful to your research, please consider cite our pap
                   journal={arXiv preprint arXiv:2105.02498},
                   year={2021}
           }
+          
 ## Contact
 
 **If you have any questions or suggestions, please contact me**
