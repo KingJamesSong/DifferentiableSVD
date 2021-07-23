@@ -14,8 +14,8 @@ computing smooth SVD gradients are investigated. We also propose a new GCP meta-
 
 ## Differentiable SVD Methods
 As the backward algorithm of SVD is prone to have numerical instability, we implement a variety of end-to-end SVD methods by manipulating the backward algortihms in this repository. They include:
-- SVD-Pad\'e: use Pad\'e approximants to closely approximate the gradient. It is proposed in our [ICCV21 paper](https://arxiv.org/abs/2105.02498). 
-- SVD-Taylor: use Taylor polynomial to approximate the smooth gradient. It is proposed in our [ICCV21 paper](https://arxiv.org/abs/2105.02498) and the [TPAMI journal](https://arxiv.org/abs/2104.03821).
+- [### SVD-Pad\'e](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SVD_Pade.py): use Pad\'e approximants to closely approximate the gradient. It is proposed in our [ICCV21 paper](https://arxiv.org/abs/2105.02498). 
+- [### SVD-Taylor](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SVD_Taylor.py): use Taylor polynomial to approximate the smooth gradient. It is proposed in our [ICCV21 paper](https://arxiv.org/abs/2105.02498) and the [TPAMI journal](https://arxiv.org/abs/2104.03821).
 - SVD-PI: use Power Iteration (PI) to approximate the gradients. It is proposed in the [NeurIPS19 paper](https://arxiv.org/abs/1906.09023).
 - SVD-Newton: use the gradient of the Newton-Schulz iteration.
 - SVD-Trunc: set a upper limit of the gradient and apply truncation
