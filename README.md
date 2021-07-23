@@ -25,6 +25,8 @@ As the backward algorithm of SVD is prone to have numerical instability, we impl
 In the task of global covaraince pooling, the SVD-Pad\'e achieves the best performances. You are free to try other methods in your research. 
 
 ## Usages
+The codes is modifed on the basis of [iSQRT-COV](https://github.com/jiangtaoxie/fast-MPN-COV)
+
 See the [requirements.txt](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/requirements.txt) for the specific required packages. 
 
 To train AlexNet on ImageNet, choose a spectral meta-layer in the script and run:
@@ -32,6 +34,7 @@ To train AlexNet on ImageNet, choose a spectral meta-layer in the script and run
 `CUDA_VISIBLE_DEVICES=0,1 bash train_alexnet.sh`
 
 The pre-trained models of ResNet-50 will be uploaded soon.
+
 
 
 ## Citation 
@@ -46,6 +49,6 @@ If you think the codes is helpful to your research, please consider cite our pap
           
 ## Contact
 
-**If you have any questions or suggestions, please contact me**
+**If you have any questions or suggestions, please feel free to contact me**
 
 `yue.song@unitn.it`
