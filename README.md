@@ -24,6 +24,9 @@ As the backward algorithm of SVD is prone to have numerical instability, we impl
 
 In the task of global covaraince pooling, the SVD-Pad\'e achieves the best performances. You are free to try other methods in your research. 
 
+## Usages
+See the [requirements.txt](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/requirements.txt) for the required packages. 
+
 ## Citation 
 If you think the codes is helpful to your research, please consider cite our paper:
 
