@@ -33,8 +33,9 @@ To train AlexNet on ImageNet, choose a spectral meta-layer in the script and run
 
 `CUDA_VISIBLE_DEVICES=0,1 bash train_alexnet.sh`
 
-The pre-trained models of ResNet-50 will be uploaded soon.
+The pre-trained models of ResNet-50 with SVD-Pad\'e is available via [Google Drive](). You can load the state dict by:
 
+`model.load_state_dict(torch.load('pade_resnet50.pth.tar'))`
 
 
 ## Citation 
