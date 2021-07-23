@@ -14,13 +14,13 @@ computing smooth SVD gradients are investigated. We also propose a new GCP meta-
 
 ## Differentiable SVD Methods
 As the backward algorithm of SVD is prone to have numerical instability, we implement a variety of end-to-end SVD methods by manipulating the backward algortihms in this repository. They include:
-- [**SVD-Pad\'e**](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SVD_Pade.py): use Pad\'e approximants to closely approximate the gradient. It is proposed in our [ICCV21 paper](https://arxiv.org/abs/2105.02498). 
-- [**SVD-Taylor**](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SVD_Taylor.py): use Taylor polynomial to approximate the smooth gradient. It is proposed in our [ICCV21 paper](https://arxiv.org/abs/2105.02498) and the [TPAMI journal](https://arxiv.org/abs/2104.03821).
-- SVD-PI: use Power Iteration (PI) to approximate the gradients. It is proposed in the [NeurIPS19 paper](https://arxiv.org/abs/1906.09023).
-- SVD-Newton: use the gradient of the Newton-Schulz iteration.
-- SVD-Trunc: set a upper limit of the gradient and apply truncation
-- SVD-TopN: select the Top-N eigenvalues and abandon the rest.
-- SVD-Original: ordinary SVD gradients with overflow check
+- [***SVD-Pad\'e***](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SVD_Pade.py): use Pad\'e approximants to closely approximate the gradient. It is proposed in our [ICCV21 paper](https://arxiv.org/abs/2105.02498). 
+- [***SVD-Taylor***](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SVD_Taylor.py): use Taylor polynomial to approximate the smooth gradient. It is proposed in our [ICCV21 paper](https://arxiv.org/abs/2105.02498) and the [TPAMI journal](https://arxiv.org/abs/2104.03821).
+- [***SVD-PI***](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SVD_PI.py): use Power Iteration (PI) to approximate the gradients. It is proposed in the [NeurIPS19 paper](https://arxiv.org/abs/1906.09023).
+- [***SVD-Newton***](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SVD_Newton.py): use the gradient of the Newton-Schulz iteration.
+- [***SVD-Trunc***](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SVD_Trunc.py): set a upper limit of the gradient and apply truncation
+- [***SVD-TopN***](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SVD_TopN.py): select the Top-N eigenvalues and abandon the rest.
+- [***SVD-Original***](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SVD_Original.py): ordinary SVD gradients with overflow check.
 
 In the task of global covaraince pooling, the SVD-Pad\'e achieves the best performances. You are free to try other methods in your research. 
 
