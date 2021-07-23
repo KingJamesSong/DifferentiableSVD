@@ -4,3 +4,4 @@ graphviz
 matplotlib
 scipy
 numpy
+mpmath
