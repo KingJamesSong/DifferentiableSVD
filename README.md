@@ -22,7 +22,7 @@ As the backward algorithm of SVD is prone to have numerical instability, we impl
 - [***SVD-Newton***](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SVD_Newton.py): use the gradient of the Newton-Schulz iteration.
 - [***SVD-Trunc***](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SVD_Trunc.py): set a upper limit of the gradient and apply truncation.
 - [***SVD-TopN***](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SVD_TopN.py): select the Top-N eigenvalues and abandon the rest.
-- [***SVD-Original***](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SVD_Original.py): ordinary SVD gradients with overflow check.
+- [***SVD-Original***](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SVD_Original.py): ordinary SVD with gradient overflow check.
 
 In the task of global covaraince pooling, the SVD-Pad\'e achieves the best performances. You are free to try other methods in your research. 
 
