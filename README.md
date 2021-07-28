@@ -43,10 +43,10 @@ The pre-trained models of ResNet-50 with SVD-Pad\'e is available via [Google Dri
 ## Citation 
 If you think the codes is helpful to your research, please consider cite our paper:
 
-         @article{song2021approximate,
+         @inproceedings{song2021approximate,
                   title={Why Approximate Matrix Square Root Outperforms Accurate SVD in Global Covariance Pooling?},
                   author={Song, Yue and Sebe, Nicu and Wang, Wei},
-                  journal={arXiv preprint arXiv:2105.02498},
+                  booktitle={ICCV},
                   year={2021}
           }
           
