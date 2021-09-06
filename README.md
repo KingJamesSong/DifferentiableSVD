@@ -41,7 +41,7 @@ The pre-trained models of ResNet-50 with SVD-Pad\'e is available via [Google Dri
 
 
 ## Citation 
-If you think the codes is helpful to your research, please consider cite our paper:
+If you think the codes is helpful to your research, please consider citing our paper:
 
 ```
 @inproceedings{song2021approximate,
