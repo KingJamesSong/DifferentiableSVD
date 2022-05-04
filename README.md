@@ -62,7 +62,7 @@ If you think the codes is helpful to your research, please consider citing our p
 ```
 
 ```
-@article{song2022on,
+@article{song2022eigenvalues,
   title={On the Eigenvalues of Global Covariance Pooling for Fine-grained Visual Recognition},
   author={Song, Yue and Sebe, Nicu and Wang, Wei},
   journal={IEEE TPAMI},
