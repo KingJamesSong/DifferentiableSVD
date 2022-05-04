@@ -5,7 +5,8 @@
 
 This repository contains:
 1. The official Pytorch implementation of ICCV21 paper [Why Approximate Matrix Square Root Outperforms Accurate SVD in Global Covariance Pooling?](https://arxiv.org/abs/2105.02498)
-2. A collection of differentiable SVD methods utilized in our paper.
+2. The official Pytorch implementation of T-PAMI paper [On the Eigenvalues of Global Covariance Pooling for Fine-grained Visual Recognition]().
+4. A collection of differentiable SVD methods utilized in our paper.
 
 You can also find the presentation of our work via the [slides](https://docs.google.com/presentation/d/1qICV8bdQqogHsLIH0YJDsOOy9pG3OvLGdK9uCMXbHXQ/edit?usp=sharing) and via the [poster](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/ICCV21_SVD_poster.pdf).
 
@@ -39,6 +40,14 @@ The pre-trained models of ResNet-50 with SVD-Pad\'e is available via [Google Dri
 
 `model.load_state_dict(torch.load('pade_resnet50.pth.tar'))`
 
+
+## FGVC Usage (T-PAMI paper)
+
+The pre-trained models are available at.
+
+The training scripts are available at.
+
+The back-propagation-based and perturbation-based visualization results are available at.
 
 ## Citation 
 If you think the codes is helpful to your research, please consider citing our paper:
