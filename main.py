@@ -155,6 +155,11 @@ def main():
                           'is_vec':True,
                           'input_dim':2048,
                           'dimension_reduction':None if args.pretrained else 256}
+    elif args.representation == 'SEB':
+        representation = {'function':SEB,
+                          'is_vec':True,
+                          'input_dim':2048,
+                          'dimension_reduction':None if args.pretrained else 256}
     elif args.representation == 'BCNN':
         representation = {'function':BCNN,
                           'is_vec':True,
