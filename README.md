@@ -47,7 +47,7 @@ The pre-trained models are available [here]().
 
 The training scripts are available [here]().
 
-The perturbation-based visualization results are available [here](), and the back-propagation-based visualizations are available [here]().
+The perturbation-based visualization results are available [here](), and the back-propagation-based visualizations are available [here](). We use [torchray](https://facebookresearch.github.io/TorchRay/) to generate these visual explainability images.
 
 ## Citation 
 If you think the codes is helpful to your research, please consider citing our paper:
