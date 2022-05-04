@@ -43,11 +43,11 @@ The pre-trained models of ResNet-50 with SVD-Pad\'e is available via [Google Dri
 
 ## FGVC Usage (T-PAMI paper)
 
-The pre-trained models are available at.
+The pre-trained models are available [here]().
 
-The training scripts are available at.
+The training scripts are available [here]().
 
-The back-propagation-based and perturbation-based visualization results are available at.
+The back-propagation-based and perturbation-based visualization results are available [here]().
 
 ## Citation 
 If you think the codes is helpful to your research, please consider citing our paper:
