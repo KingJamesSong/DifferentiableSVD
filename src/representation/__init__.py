@@ -9,4 +9,5 @@ from .SVD_PI import SVD_PI
 from .SVD_Taylor import SVD_Taylor
 from .SVD_TopN import SVD_TopN
 from .SVD_Trunc import SVD_Trunc
+from .SEB import SEB
 
