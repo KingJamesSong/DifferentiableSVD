@@ -41,7 +41,7 @@ The pre-trained models of ResNet-50 with SVD-Pad\'e is available via [Google Dri
 `model.load_state_dict(torch.load('pade_resnet50.pth.tar'))`
 
 
-## FGVC Usage (T-PAMI paper)
+## Fine-grained Classification Usage (T-PAMI paper)
 
 The proposed Scaling Eigen Branch (SEB) is implemented [here](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SEB.py), and the training scripts are available [here](https://github.com/KingJamesSong/DifferentiableSVD/tree/main/FGVC).
 
@@ -60,6 +60,16 @@ If you think the codes is helpful to your research, please consider citing our p
   year={2021}
 }
 ```
+
+、、、
+@article{scheirer2012toward,
+  title={On the Eigenvalues of Global Covariance Pooling for Fine-grained Visual Recognition},
+  author={Song, Yue and Sebe, Nicu and Wang, Wei},
+  journal={IEEE TPAMI},
+  year={2022},
+  publisher={IEEE}
+}
+、、、
 
 ## Contact
 
