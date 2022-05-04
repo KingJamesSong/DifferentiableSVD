@@ -45,9 +45,9 @@ The pre-trained models of ResNet-50 with SVD-Pad\'e is available via [Google Dri
 
 The proposed Scaling Eigen Branch (SEB) is implemented [here](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SEB.py), and the training scripts are available [here](https://github.com/KingJamesSong/DifferentiableSVD/tree/main/FGVC).
 
-The pre-trained models are available [here]().
+The pre-trained models are available via [Google Drive]().
 
-The perturbation-based visualization results are available [here](), and the back-propagation-based visualizations are available [here](). We use [torchray](https://facebookresearch.github.io/TorchRay/) to generate these visual explainability images.
+The perturbation-based visualization results are available via [Google Drive](), and the back-propagation-based visualizations are available via [Google Drive](). We use [torchray](https://facebookresearch.github.io/TorchRay/) to generate these visual explainability images.
 
 ## Citation 
 If you think the codes is helpful to your research, please consider citing our paper:
