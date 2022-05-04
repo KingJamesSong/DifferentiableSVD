@@ -61,7 +61,7 @@ If you think the codes is helpful to your research, please consider citing our p
 }
 ```
 
-、、、
+```
 @article{scheirer2012toward,
   title={On the Eigenvalues of Global Covariance Pooling for Fine-grained Visual Recognition},
   author={Song, Yue and Sebe, Nicu and Wang, Wei},
@@ -69,7 +69,7 @@ If you think the codes is helpful to your research, please consider citing our p
   year={2022},
   publisher={IEEE}
 }
-、、、
+```
 
 ## Contact
 
