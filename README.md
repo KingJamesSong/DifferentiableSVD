@@ -47,7 +47,7 @@ The pre-trained models are available [here]().
 
 The training scripts are available [here]().
 
-The back-propagation-based and perturbation-based visualization results are available [here]().
+The perturbation-based visualization results are available [here](), and the back-propagation-based visualizations are available [here]().
 
 ## Citation 
 If you think the codes is helpful to your research, please consider citing our paper:
