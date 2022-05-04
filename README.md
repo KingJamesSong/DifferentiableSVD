@@ -43,9 +43,9 @@ The pre-trained models of ResNet-50 with SVD-Pad\'e is available via [Google Dri
 
 ## FGVC Usage (T-PAMI paper)
 
-The pre-trained models are available [here]().
+The proposed Scaling Eigen Branch (SEB) is implemented [here](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SEB.py), and the training scripts are available [here](https://github.com/KingJamesSong/DifferentiableSVD/tree/main/FGVC).
 
-The training scripts are available [here]().
+The pre-trained models are available [here]().
 
 The perturbation-based visualization results are available [here](), and the back-propagation-based visualizations are available [here](). We use [torchray](https://facebookresearch.github.io/TorchRay/) to generate these visual explainability images.
 
