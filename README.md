@@ -43,6 +43,8 @@ The pre-trained models of ResNet-50 with SVD-Pad\'e is available via [Google Dri
 
 ## Fine-grained Classification Usage (T-PAMI paper)
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/on-the-eigenvalues-of-global-covariance/fine-grained-image-classification-on-stanford-1)](https://paperswithcode.com/sota/fine-grained-image-classification-on-stanford-1?p=on-the-eigenvalues-of-global-covariance)
+
 The proposed Scaling Eigen Branch (SEB) is implemented [here](https://github.com/KingJamesSong/DifferentiableSVD/blob/main/src/representation/SEB.py), and the training scripts are available [here](https://github.com/KingJamesSong/DifferentiableSVD/tree/main/FGVC).
 
 The pre-trained models are available via [Google Drive](https://drive.google.com/drive/folders/1yDvm8ZFcJTBtv0ezOg17EQ4o6OPQ2HM8?usp=sharing).
