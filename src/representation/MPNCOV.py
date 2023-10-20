@@ -15,7 +15,7 @@ All rights reserved.
 import torch
 import torch.nn as nn
 from torch.autograd import Function
-from .feature_momentum import *
+
 
 class MPNCOV(nn.Module):
      """Matrix power normalized Covariance pooling (MPNCOV)
